@@ -4,6 +4,6 @@ RSpec.describe RandGunji do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(RandGunji.greet).to eq("Hello")
   end
 end
